@@ -1,12 +1,22 @@
 import React from "react";
-import { Center } from "@chakra-ui/react";
+import { Box, Flex } from "@chakra-ui/react";
 
 import { Logo } from "@components";
+import Menu from "@components/menu";
 
 export const Header: React.FC = () => {
     return (
-        <Center bg="header.100">
+        <Flex
+            justify="space-between"
+            align="center"
+            columns={2}
+            spacing={5}
+            px={20}
+            py={5}
+            bg="header.200"
+        >
             <Logo />
-        </Center>
+            <Menu />
+        </Flex>
     );
 };

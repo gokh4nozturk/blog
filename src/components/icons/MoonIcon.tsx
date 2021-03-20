@@ -5,8 +5,8 @@ function SvgMoonIcon(props: React.SVGProps<SVGSVGElement>) {
         <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 511.984 511.984"
-            width="1em"
-            height="1em"
+            width="2em"
+            height="2em"
             {...props}
         >
             <path
