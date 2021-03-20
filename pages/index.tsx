@@ -8,7 +8,7 @@ const Home: React.FC = () => {
         <Flex direction="column" minH="100vh">
             <Header />
             <Main />
-            <Cards />
+            {/* <Cards /> */}
             <Spacer />
             <Footer />
         </Flex>
