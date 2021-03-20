@@ -1,17 +1,19 @@
 import React from "react";
-import { Box, useTheme } from "@chakra-ui/react";
+import { Box, useTheme, SimpleGrid } from "@chakra-ui/react";
+import { Loading } from "@components/loading";
 
 export const Main: React.FC = () => {
     const theme = useTheme();
     return (
-        <Box
-            height="100vh"
+        <SimpleGrid
+            height="72.02vh"
             bg="main.100"
             color="white"
-            textAlign="center"
+            placeItems="center"
             py={10}
+            
         >
-            <h1 style={{ fontSize: theme.fontSizes["5xl"] }}>Gökhan Öztürk</h1>
-        </Box>
+            <Loading />
+        </SimpleGrid>
     );
 };
